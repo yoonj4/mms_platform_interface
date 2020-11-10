@@ -1,6 +1,6 @@
 name: mms_platform_interface
 description: A common platform interface for the mms plugin.
-homepage: https://github.com/yoonj4/mms_platform_interface
+repository: https://github.com/yoonj4/mms_platform_interface
 # NOTE: We strongly prefer non-breaking changes, even at the expense of a
 # less-clean API. See https://flutter.dev/go/platform-interface-breaking-changes
 version: 1.0.0

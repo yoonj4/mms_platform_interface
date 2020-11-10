@@ -33,6 +33,7 @@ abstract class MmsPlatform extends PlatformInterface {
 
   /// Creates an MMS message with the video at [videoFilePath]
   /// and sends it to the recipients in [recipientNumbers].
+  ///
   /// Completes to [true] if the video was sent successfully.
   Future<bool> sendVideo(
       final String videoFilePath,
