@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 
 import 'mms_platform_interface.dart';
 
-const MethodChannel _channel = MethodChannel('plugins.flutter.io/mms');
+const MethodChannel _channel = MethodChannel('mms');
 
 /// An implementation of [MmsPlatform] that uses method channels.
 class MethodChannelMms extends MmsPlatform {
