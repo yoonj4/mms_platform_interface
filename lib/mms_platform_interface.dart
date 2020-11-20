@@ -1,5 +1,3 @@
-import 'dart:async';
-
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 import 'method_channel_mms.dart';
@@ -33,9 +31,7 @@ abstract class MmsPlatform extends PlatformInterface {
 
   /// Creates an MMS message with the video at [videoFilePath]
   /// and sends it to the recipients in [recipientNumbers].
-  ///
-  /// Completes to [true] if the video was sent successfully.
-  Future<bool> sendVideo(
+  void sendVideo(
       final String videoFilePath,
       final List<String> recipientNumbers) {
     throw UnimplementedError('sendVideo() has not been implemented.');
