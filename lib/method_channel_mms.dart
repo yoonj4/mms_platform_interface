@@ -21,6 +21,7 @@ class MethodChannelMms extends MmsPlatform {
 
   @override
   void sendVideoWithDefaultApp(
+      final String message,
       final String videoFilePath,
       final List<String> recipientNumbers) {
     _channel.invokeMethod(

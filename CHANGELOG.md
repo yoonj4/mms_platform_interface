@@ -1,3 +1,7 @@
+## 3.1.0
+- Add sendVideoWithDefaultApp() method which composes an MMS message with a video. The user will
+  then be taken to their default MMS app to allow them to send it manually.
+
 ## 3.0.0
 - Change return type of sendVideo() to void.
 
