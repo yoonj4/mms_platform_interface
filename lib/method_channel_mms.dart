@@ -27,6 +27,7 @@ class MethodChannelMms extends MmsPlatform {
     _channel.invokeMethod(
       'sendVideoWithDefaultApp',
       <String, Object>{
+        'message': message,
         'videoFilePath': videoFilePath,
         'recipientNumbers': recipientNumbers
       },
