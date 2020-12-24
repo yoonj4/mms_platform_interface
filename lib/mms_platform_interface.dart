@@ -36,4 +36,12 @@ abstract class MmsPlatform extends PlatformInterface {
       final List<String> recipientNumbers) {
     throw UnimplementedError('sendVideo() has not been implemented.');
   }
+
+  /// Creates an MMS message with the video at [videoFilePath].
+  /// Uses the default MMS app on the device to allow the user to confirm sending it to [recipientNumbers].
+  void sendVideoWithDefaultApp(
+      final String videoFilePath,
+      final List<String> recipientNumbers) {
+    throw UnimplementedError('sendVideoWithDefaultApp() has not been implemented.');
+  }
 }
